@@ -1,0 +1,78 @@
+
+[loot]
+	# Should killed NPCs drop ammo matching the gun they were holding?
+	dropAmmo = true
+	# Max mags worth of ammo a killed NPC can drop. Always drops at least 1 full mag.
+	#Range: 1 ~ 100
+	ammoDropMaxMags = 1
+	# Should killed NPCs drop gunpowder?
+	dropGunpowder = true
+	# Max gunpowder a killed NPC can drop. Always drops at least 1.
+	#Range: 1 ~ 1000
+	gunpowderDropMax = 2
+	# Should killed NPCs be able to drop the gun they were holding?
+	dropGun = true
+	# Chance (0.0-1.0) a killed NPC drops their gun, if dropGun is enabled.
+	#Range: 0.0 ~ 1.0
+	gunDropChance = 0.1
+
+[combat]
+	# Max health of Scavengers and Soldiers (a player has 20).
+	#Range: 1.0 ~ 1024.0
+	npcMaxHealth = 60.0
+	# Damage multiplier for NPC guns. 1.0 = full damage, 0.5 = half, etc.
+	#Range: 0.0 ~ 10.0
+	npcGunDamageMultiplier = 1.0
+	# How far off (in blocks) an NPC's shots can land at typical range. Lower is more accurate, 0 is a perfect shot every time.
+	#Range: 0.0 ~ 10.0
+	npcAccuracyMissRadius = 1.5
+	# How far (in blocks) NPCs can spot and start engaging a target.
+	#Range: 1.0 ~ 256.0
+	maxSightRange = 64.0
+	# How far (in blocks) NPCs can hear an unsuppressed gunshot and investigate.
+	#Range: 1.0 ~ 256.0
+	maxSoundRange = 96.0
+	# How far (in blocks) NPCs can hear a suppressed gunshot and investigate.
+	#Range: 1.0 ~ 256.0
+	maxSoundRangeSuppressed = 16.0
+	# Should NPCs and vanilla hostile mobs fight each other?
+	hostileMobConflict = true
+
+[patrol]
+	# Chance (0.0-1.0) a patrol spawns each time a player is checked.
+	#Range: 0.0 ~ 1.0
+	baseChance = 0.14285714285714285
+	# How much extra spawn chance builds up after each failed check.
+	#Range: 0.0 ~ 5.0
+	failureMultiplier = 1.0
+	# How often (in ticks) a player is checked for a patrol spawn.
+	#Range: 20 ~ 720000
+	tickWindow = 6000
+	# How long (in ticks) a player is safe after a patrol spawns for them.
+	#Range: 0 ~ 720000
+	cooldownTicks = 6000
+	# Closest a patrol can spawn to the player, in blocks.
+	#Range: 8 ~ 128
+	minDistance = 32
+	# Furthest a patrol can spawn from the player, in blocks.
+	#Range: 8 ~ 256
+	maxDistance = 64
+	# Which faction(s) can spawn in a patrol squad. BOTH picks randomly per squad (default).
+	#Allowed Values: BOTH, SCAVENGER_ONLY, SOLDIER_ONLY
+	patrolFaction = "BOTH"
+	# Should the player get a chat message when a patrol squad spawns near them?
+	patrolSpawnWarning = true
+	# If another player within this range already has an active patrol cooldown, skip spawning a squad for this player too (0 disables this).
+	#Range: 0 ~ 1024
+	groupRadius = 256
+
+[movement]
+	# Can NPCs open closed wooden doors while pathfinding? (iron doors are never opened)
+	canOpenDoors = true
+	# Can NPCs open closed fence gates while pathfinding?
+	canOpenFenceGates = true
+
+[debug]
+	# Dev/debug tool - don't worry about this one.
+	enableDebugLogging = false
+

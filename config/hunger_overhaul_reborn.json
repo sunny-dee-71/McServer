@@ -1,0 +1,59 @@
+{
+  "food": {
+    "modifyFoodStats": true,
+    "modifyFoodValues": true,
+    "showFoodTooltips": true,
+    "enableWellFedEffect": true,
+    "modifyStackSizes": true,
+    "modifyEatingSpeed": true,
+    "modFoodValueDivider": 4.0,
+    "enableLowHungerWarnings": true
+  },
+  "crops": {
+    "cropsOnlyGrowInDaylight": true,
+    "cropsTakeLongerToGrow": true,
+    "cropGrowthMultiplier": 0.5,
+    "cropsOnlyGiveSeeds": true,
+    "difficultyScalingBoneMeal": true,
+    "removeTallGrassSeeds": true
+  },
+  "animals": {
+    "eggTimeoutMultiplier": 4.0,
+    "breedingTimeoutMultiplier": 4.0,
+    "childDurationMultiplier": 4.0
+  },
+  "tools": {
+    "modifyHoeUse": true,
+    "removeHoeRecipes": true,
+    "hoeToolDamageMultiplier": 5.0,
+    "seedChanceMultiplier": 1.0,
+    "seedChanceBase": 0.4
+  },
+  "hunger": {
+    "constantHungerLoss": true,
+    "constantHungerLossRate": 0.001,
+    "modifyRespawnHunger": true,
+    "respawnHungerValue": 20,
+    "respawnHungerDifficultyModifier": 4,
+    "difficultyScalingRespawnHunger": true,
+    "difficultyScalingHungerLoss": true,
+    "harvestCraftHungerLossIncrease": true,
+    "harvestCraftHungerLossMultiplier": 1.33,
+    "instantDeathOnZeroHunger": true,
+    "lowHungerEffects": true,
+    "lowHungerSlownessThreshold": 6,
+    "lowHungerWeaknessThreshold": 4
+  },
+  "health": {
+    "healthHealsAboveThreeShanks": true,
+    "healthHealingThreshold": 6,
+    "lowHealthEffects": true,
+    "lowHealthEffectsThreshold": 6,
+    "difficultyScalingHealing": true
+  },
+  "integration": {
+    "enableHarvestCraftIntegration": true,
+    "enableVillageIntegration": true,
+    "enableChestLootIntegration": true
+  }
+}
