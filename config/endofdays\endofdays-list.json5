@@ -1,0 +1,298 @@
+{
+	// Don't modify non-custom keys, otherwise those config can't be load
+	"target": [
+		"minecraft:player",
+		"minecraft:villager"
+	],
+	"target_block": [
+		{
+			"id": "minecraft:white_bed",
+			"tag": [
+				"minecraft:beds"
+			],
+			"key": "target_block_1"
+		},
+		{
+			"id": "minecraft:chest",
+			"tag": [
+				"forge:chests"
+			],
+			"key": "target_block_2"
+		},
+		{
+			"id": "minecraft:torch",
+			"tag": [],
+			"key": "target_block_3"
+		}
+	],
+	"drops_set": [],
+	"msg_set": [
+		{
+			"Name": "",
+			"Value": "<color:#ffffff>看到这条消息时，你已经度过了第一天。可能有些乏味，不要着急，接下来的日子会越来越有趣的。</color>",
+			"day": 1,
+			"times": 1000,
+			"msgEnum": "NONE",
+			"key": "msg1"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#ffffff>准备好开始你的生存之旅吧。</color>",
+			"day": 1,
+			"times": 1100,
+			"msgEnum": "NONE",
+			"key": "msg2"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#ffffff>Go...</color>",
+			"day": 1,
+			"times": 1120,
+			"msgEnum": "NONE",
+			"key": "msg3"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#ffffff>血月降临了...</color>",
+			"day": 1,
+			"times": 1000,
+			"msgEnum": "BLOOD_INFO_JOIN",
+			"key": "blood_in"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#ffffff>世界归于平静...</color>",
+			"day": 1,
+			"times": 1000,
+			"msgEnum": "BLOOD_INFO_EXT",
+			"key": "blood_out"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#8B2323>你无法在血月期间睡眠</color>",
+			"day": 0,
+			"times": -1,
+			"msgEnum": "BLOOD_SLEEP",
+			"key": "endofdays_blood_sleep_enable"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#8B8378>早上好，今天是你生存的第 </color><color:#FFFAFA>&day</color><color:#8B8378> 天</color>",
+			"day": 0,
+			"times": 1000,
+			"msgEnum": "INFO",
+			"key": "endofdays_daylight"
+		},
+		{
+			"Name": "",
+			"Value": "<color:#8B1A1A>入夜了，世界开始变的危险起来了...</color>",
+			"day": 0,
+			"times": 12990,
+			"msgEnum": "INFO",
+			"key": "endofdays_night"
+		}
+	],
+	"armor_set": [
+		{
+			"key": "minecraft:leather",
+			"entity_armor": {
+				"ID": "minecraft:leather_helmet",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "HEAD",
+				"day": 20
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:leather_chestplate",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "CHEST",
+				"day": 20
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:leather_leggings",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "LEGS",
+				"day": 20
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:leather_boots",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "FEET",
+				"day": 20
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:empty",
+				"TAG": "",
+				"Probability": 0.0,
+				"TYPE": "MAINHAND",
+				"day": 0
+			}
+		},
+		{
+			"key": "minecraft:iron_ingot",
+			"entity_armor": {
+				"ID": "minecraft:iron_helmet",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "HEAD",
+				"day": 30
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:iron_chestplate",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "CHEST",
+				"day": 30
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:iron_leggings",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "LEGS",
+				"day": 30
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:iron_boots",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "FEET",
+				"day": 30
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:iron_sword",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "MAINHAND",
+				"day": 30
+			}
+		},
+		{
+			"key": "minecraft:gold_ingot",
+			"entity_armor": {
+				"ID": "minecraft:golden_helmet",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "HEAD",
+				"day": 40
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:golden_chestplate",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "CHEST",
+				"day": 40
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:golden_leggings",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "LEGS",
+				"day": 40
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:golden_boots",
+				"TAG": "",
+				"Probability": 0.1,
+				"TYPE": "FEET",
+				"day": 40
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:golden_sword",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "MAINHAND",
+				"day": 40
+			}
+		},
+		{
+			"key": "minecraft:diamond",
+			"entity_armor": {
+				"ID": "minecraft:diamond_helmet",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "HEAD",
+				"day": 50
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:diamond_chestplate",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "CHEST",
+				"day": 50
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:diamond_leggings",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "LEGS",
+				"day": 50
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:diamond_boots",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "FEET",
+				"day": 50
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:diamond_sword",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "MAINHAND",
+				"day": 50
+			}
+		},
+		{
+			"key": "minecraft:netherite_ingot",
+			"entity_armor": {
+				"ID": "minecraft:netherite_helmet",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "HEAD",
+				"day": 70
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:netherite_chestplate",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "CHEST",
+				"day": 70
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:netherite_leggings",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "LEGS",
+				"day": 70
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:netherite_boots",
+				"TAG": "",
+				"Probability": 0.05,
+				"TYPE": "FEET",
+				"day": 70
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:netherite_sword",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "MAINHAND",
+				"day": 70
+			}
+		}
+	],
+	"replace_list": [
+		{
+			"key": "endofdays_spawner_replace_list",
+			"ID": "minecraft:monster",
+			"TAG": "",
+			"replaceSpawnerType": "NATURAL",
+			"Dimension": "minecraft:overworld",
+			"Probability": 0.5,
+			"replace_ID": "minecraft:zombie"
+		}
+	]
+}
