@@ -3,14 +3,14 @@
 [general]
 	#Max awareness range for zombies
 	#Range: > -2147483648
-	maxPFRangeSense = 64
+	maxPFRangeSense = 128
 	#Prevent non zombies from being attracted to light
-	awareness_Light_OnlyZombies = true
+	awareness_Light_OnlyZombies = false
 	#Custom targetting sight range on top of vanilla sight based targetting
 	#Range: > -2147483648
 	sightRange = 16
 	#Always target closest player [performance sensitive]
-	omniscient = false
+	omniscient = true
 	#skips line of sight check on targetting [performance sensitive]
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
